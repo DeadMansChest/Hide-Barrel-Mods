@@ -8,7 +8,7 @@ io.stdout:write("\n[HBE] hide_breaks.lua...")
 
 if DMCWO == nil then
 
-	if not tweak_data then return end
+	local tweak_factory = tweak_data.weapon.factory
 	
 	if hide_brakes == true then
 		tweak_factory.parts.wpn_fps_upg_ns_ass_smg_firepig.unit = "units/payday2/weapons/wpn_fps_smg_mp9_pts/wpn_fps_smg_mp9_b_dummy"

@@ -6,4 +6,4 @@ v1.5
 DMC
 ]]
 
-RegisterScript("lib/lua/HideBarrelExtentions/hide_brakes.lua", 2, "lib/tweak_data/weaponfactorytweakdata")
+RegisterScript("lib/lua/HideBarrelExtentions/hide_brakes.lua", 2, "lib/tweak_data/tweakdata")
